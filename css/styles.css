@@ -1,0 +1,39 @@
+*{
+  font-family:georgia;
+}
+
+/* Navbar */
+.gold{
+  color:#D4AF37;
+}
+.blue{
+  color: #ffffff;
+}
+
+#bg{
+  background-color:white;
+}
+
+ul li a{
+  margin: 8px;
+  color: white;
+}
+ul li a:hover{
+  margin: 8px;
+  color: white;
+  text-decoration-line: none;
+}
+
+
+/* End Navbar */
+
+/* intro */
+.intro p{
+  font-size: 16px;
+}
+/* end intro */
+
+
+.two{
+  box-shadow:0 0 10px;
+}
