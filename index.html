@@ -6,48 +6,68 @@
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
-    <section id="bg">
       <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-dark">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand text-uppercase" href="#"><span class="blue">Blue&</span><span class="gold">Gold</span></a>
-            </div>
-            <div class="collapse navbar-collapse" id="mynav">
+      <div class="container-full" id="bg">
+        <div class="container-full overlay">
+          <nav class="navbar navbar-expand-sm bglight" >
+              <div class="container-fluid">
+                <ul class="nav navbar-nav ml-auto">
+                  <p>info@bluegold.com +25472345678</p>
+                </ul>
+              </div>
+          </nav>
+          <nav class="navbar navbar-expand-lg navbar-light mt-2" >
+              <div class="container-fluid ">
+                <div class="navbar-header">
+                  <a class="navbar-brand text-uppercase" href="#"><span class="blue">Blue&</span><span class="gold">Gold</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynav">
 
-              <ul class="nav navbar-nav ml-auto">
-                <li class="active"><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
-              </ul>
-            </div>
+                  <ul class="nav navbar-nav ml-auto">
+                    <li class="active"><a href="#">Pricing</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="toggler ml-auto">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav" name="button">
+                  <span class="btn btn-info btn-sm text-white">Menu</span>
+                </button>
+              </div>
+          </nav>
+          <!-- intro text -->
+          <div class="container-fluid intro text-white mt-5 pt-3 text-center">
+            <h3 class="text-center mt-5 pt-5 pb-3 text-uppercase">Choose a plan that is right for your business</h3>
+            <button class="btn btn-info" type="button" name="button"><a class="text-white" href="#content">Business Plan</a></button>
+            <button class="btn btn-outline-info mt-1" type="button" name="button"><a class="text-white" href="#content">Personal Plan</a></button>
+
           </div>
-          <div class="toggler ml-auto">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav" name="button">
-              <span class="btn btn-info btn-sm text-white">Menu</span>
-            </button>
-          </div>
-        </nav>
+          <!-- end intro -->
+        </div>
+
+      </div>
       <!-- End of navbar -->
 
-      <!-- intro text -->
-      <div class="container-fluid intro">
-        <h3 class="text-center mt-5">Plans For Everyone</h3>
-        <p class="text-center">Choose the plan that works for you. We’ve made our pricing flexible so you can get, and pay for, exactly what you need. No hidden fees.</p>
-      </div>
-      <!-- end intro -->
 
+  <section id="content">
       <!-- plans -->
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
           <div class="col-md-4 mt-4">
-            <div class="card two">
+            <div class="card one">
               <div class="card-body text-center">
-                <h5 class="text-center mt-5"><strong>Bronze $20</strong></h5>
+                <h5 class="text-center mt-5"><img class="w-25" src="images/br.jpg" alt=""> <br> <strong>Bronze $20</strong></h5>
+                <hr>
                 <p class="text-center mt-3">+0% free credits <br> <small class="text-center">Average</small> <br> <span>No watermark in download</span> <br> <span>All items included</span> <br> <span>Access to Premade Scenes</span></p>
+                <button class="btn btn-default badge-pill" type="button" name="button">FreeTrial</button>
                 <button class="btn btn-info badge-pill" type="button" name="button">Buy Now</button>
               </div>
             </div>
@@ -55,17 +75,21 @@
           <div class="col-md-4 mt-4">
             <div class="card two">
               <div class="card-body text-center">
-                <h5 class="text-center mt-5"><strong>Silver $40</strong></h5>
+                <h5 class="text-center mt-5"><img class="w-25" src="images/silver.jpg" alt=""><br><strong>Silver $40</strong></h5>
+                <hr>
                 <p class="text-center mt-3">+0% free credits <br> <small class="text-center">Average</small> <br> <span>No watermark in download</span> <br> <span>All items included</span> <br> <span>Access to Premade Scenes</span></p>
+                <button class="btn btn-default badge-pill" type="button" name="button">FreeTrial</button>
                 <button class="btn btn-info badge-pill" type="button" name="button">Buy Now</button>
               </div>
             </div>
           </div>
           <div class="col-md-4 mt-4">
-            <div class="card two">
+            <div class="card three">
               <div class="card-body text-center">
-                <h5 class="text-center mt-5"><strong>Gold $60</strong></h5>
+                <h5 class="text-center mt-5"><img class="w-25" src="images/gold.png" alt=""> <br> <strong>Gold $60</strong></h5>
+                <hr>
                 <p class="text-center mt-3">+0% free credits <br> <small class="text-center">Average</small> <br> <span>No watermark in download</span> <br> <span>All items included</span> <br> <span>Access to Premade Scenes</span></p>
+                <button class="btn btn-default badge-pill" type="button" name="button">FreeTrial</button>
                 <button class="btn btn-info badge-pill" type="button" name="button">Buy Now</button>
               </div>
             </div>
@@ -73,6 +97,22 @@
          </div>
       </div>
       <!-- end plans -->
+      <div class="container mb-5">
+        <h5 class="text-center mt-5"><strong>Every Plan Include</strong></h5>
+        <div class="row">
+          <div class="col-md-4">
+            <p>No watermark in download <i class="fa fa-check"></i></p>
+          </div>
+          <div class="col-md-4">
+            <p>All items included <i class="fa fa-check"></i></p>
+          </div>
+          <div class="col-md-4 mt-2">
+            <p>Access to Premade Scenes <i class="fa fa-check"></i></p>
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
     <!-- footer -->
