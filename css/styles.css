@@ -1,5 +1,5 @@
 *{
-  font-family:georgia;
+  font-family:'Roboto Condensed', sans-serif;
 }
 
 /* Navbar */
@@ -33,7 +33,16 @@ ul li a:hover{
 }
 /* end intro */
 
-
+/* pricing plan */
 .two{
   box-shadow:0 0 10px;
 }
+/* end pricing plan */
+
+/* footer */
+.footer{color: #fff;
+float:left;
+width: 100%;
+padding-bottom:3%;
+}
+/* end footer */
